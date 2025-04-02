@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "d9af28df57fca452",
+    "type": "split",
+    "children": [
+      {
+        "id": "85cd3d69f65b3128",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e643eff17168415c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "72406de6e9a2c562",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf1c8488ab6db58b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a53786bdd03dd621",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ae17b3c00b4b89d2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "56812b73fcf482b2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 274.5
+  },
+  "right": {
+    "id": "0856e5ea6332aef0",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5e2c8bb9f0ad763",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "377bbdd818ee687a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "obsidian-vault/NCL Spring 2025/Gymnasium/3. Password Cracking.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 3. Password Cracking"
+            }
+          },
+          {
+            "id": "25363202fc1db897",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "obsidian-vault/NCL Spring 2025/Gymnasium/4. Forensics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 4. Forensics"
+            }
+          },
+          {
+            "id": "68b62ef536f3c03e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b87e9efa691172c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "obsidian-vault/NCL Spring 2025/Gymnasium/4. Forensics.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 4. Forensics"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-kanban:Create new board": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "e643eff17168415c",
+  "lastOpenFiles": [
+    "public-vault/Test.md",
+    "Test.md",
+    "public-vault",
+    "public-vault/Test Note.md",
+    "Test Note.md",
+    "Untitled",
+    "public-vault/README.md",
+    "home/ddogg26/Documents/public-vault/README.md",
+    "home/ddogg26/Documents/public-vault",
+    "home/ddogg26/Documents",
+    "home/ddogg26",
+    "home",
+    "publc-vault",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/3. Password Cracking.md",
+    "private-vault/Welcome.md",
+    "private-vault",
+    "obsidian-vault/NCL Spring 2025/Practice Game",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/2. Cryptography.md",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/4. Forensics.md",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/1. OSINT.md",
+    "().md",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/images/git-branches.png",
+    "obsidian-vault/README.md",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/images/vigenere-table.png",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/images/ssl-cert.png",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/images/pgp-fingerprint.png",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/images/cert-key-info.png",
+    "obsidian-vault/NCL Spring 2025/Gymnasium/images/cert-issuer.png",
+    "obsidian-vault/Cyber Range Notes/CYBER RANGES - Wednesday, March 12 2025.md",
+    "NCL Spring 2025/Gymnasium/3. Password Cracking.md",
+    "NCL Spring 2025/Gymnasium/2. Cryptography.md",
+    "NCL Spring 2025/Gymnasium/1. OSINT.md",
+    "NCL Spring 2025/Gymnasium/images/ssl-cert.png",
+    "NCL Spring 2025/Gymnasium/images/pgp-fingerprint.png",
+    "NCL Spring 2025/Gymnasium/images/cert-issuer.png",
+    "NCL Spring 2025/Gymnasium/images/vigenere-table.png",
+    "Cyber Range Notes/CYBER RANGES - Wednesday, March 12 2025.md",
+    "Untitled.canvas",
+    "NCL Spring 2025/Gymnasium.md",
+    "Welcome.md"
+  ]
+}
