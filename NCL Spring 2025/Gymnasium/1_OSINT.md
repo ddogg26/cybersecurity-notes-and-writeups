@@ -38,4 +38,4 @@ How many certificates are in the certificate chain?
 #### Barcode
 * https://online-barcode-reader.inliteresearch.com/
 
-[2. Cryptography](2.%20Cryptography.md)
+[2_Cryptography](2_Cryptography.md)
