@@ -14,4 +14,7 @@
 * `\s Whitespace Character`
 * `\S Non-Whitespace Character`
 
-#### Cha
+#### Character Classes
+* `. matches anything except line breaking`
+* `[a-e]` matches a through e
+* `^[4-6]` doesn't matc
