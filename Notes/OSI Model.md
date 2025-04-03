@@ -1,6 +1,6 @@
 
 1. **Physical Layer**
-	* Hardware elements like cables, repeaters, hubs
+	* Hardware elements like cables, repeaters, hubs (repeaters and hubs because they transmit data )
 	* Handles transmission of raw data
 	* Fiber optics and Wi-Fi operate at this layer
 
