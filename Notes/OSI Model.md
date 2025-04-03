@@ -22,7 +22,8 @@
 	* Controls the connections between computers (establish, termination)
 	* RPC (Remote Procedure Call) 
 6. Presentation
-	* Translates data between application and 
+	* Translates data between application layer and network format
+	* Handles data formatting, encryption, compression
 	* 
 	* 
 7. Application
