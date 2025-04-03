@@ -21,9 +21,8 @@
 5. Session
 	* Controls the connections between computers (establish, termination)
 	* RPC (Remote Procedure Call) 
-	* 
 6. Presentation
-	* 
+	* Translates data between application and 
 	* 
 	* 
 7. Application
