@@ -27,6 +27,6 @@
 	* ASCII, UTF-8, etc
 	* AES, RSA
 7. Application
-	* 
-	* 
-	* 
+	* Interface between end-user and network services
+	* Resource sharing, remote file access, network management
+	* HTTP, FTP, SMTP, DN
