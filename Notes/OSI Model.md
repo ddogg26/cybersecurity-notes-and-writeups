@@ -24,8 +24,8 @@
 6. Presentation
 	* Translates data between application layer and network format
 	* Handles data formatting, encryption, compression
-	* 
-	* 
+	* ASCII, UTF-8, etc
+	* AES, RSA
 7. Application
 	* 
 	* 
