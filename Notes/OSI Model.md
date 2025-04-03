@@ -29,4 +29,4 @@
 7. Application
 	* Interface between end-user and network services
 	* Resource sharing, remote file access, network management
-	* HTTP, FTP, SMTP, DN
+	* HTTP, FTP, SMTP, DNS, etc
