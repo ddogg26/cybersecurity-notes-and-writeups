@@ -26,7 +26,7 @@
 * `+` character before can appear more than once
 	* `e+ = eeeeeee`
 * `?` character before is optional
-	* colour
+	* `colou?r` matches `color`
 
 #### Captures Groups
 * `(?<time>\d\d:\d\d:\d\d)`
