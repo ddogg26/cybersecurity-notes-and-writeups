@@ -16,24 +16,24 @@
 	* IP addresses, packet forwarding
 	* IP, ICMP (Internet Control Message Protocol), RIP (Routing Information Protocol)
 
-4. **Transport**
+4. **Transport (Segment/Datagram)**
 	* Reliable end-to-end communication between hosts
 	* Segments and reassembles data for transmission, more error detection
 	* TCP and UDP
 	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK), good for email, file transfer
 	* UDP doesn't establish connection first, faster, good for stuff like video streaming
 
-5. **Session**
+5. **Session (Data)**
 	* Controls the connections between computers (establish, termination)
 	* RPC (Remote Procedure Call)
 
-6. **Presentation**
+6. **Presentation (Data)**
 	* Translates data between application layer and network format
 	* Handles data formatting, encryption, compression
 	* ASCII, UTF-8, etc
 	* AES, RSA
 
-7. **Application**
+7. **Application (Data)**
 	* Allows applications to access network services
 	* Interface between end-user and network services
 	* Resource sharing, remote file access, network management
