@@ -24,8 +24,9 @@
 * `A{3,5}` matches `A` if it repeats 3,4, or 5 times
 * `[1-2]+` matches 1 or 2 if it occurs once or more
 * `+` character before can appear more than once
-	* (`e+ = eeeeeee)
-* `?` character before
+	* `e+ = eeeeeee`
+* `?` character before is optional
+	* colour
 
 #### Captures Groups
 * `(?<time>\d\d:\d\d:\d\d)`
