@@ -1,16 +1,16 @@
 
-1. **Physical Layer**
+1. **Physical Layer (Bits)**
 	* Handles transmission of raw data
 	* Hardware elements like cables, repeaters, hubs (repeaters and hubs because they transmit data, no data processing)
 	* Fiber optics and Wi-Fi operate at this layer
 
-2. **Data Link Layer**
+2. **Data Link Layer (Frames)**
 	* Ensures reliable data transfer between nodes
 	* Node-to node data transfer, error detection and correction
 	* Manages MAC addresses
 	* Ethernet, PPP (Point-to-Point Protocol)
 
-3. **Network**
+3. **Network (Packet)**
 	* Data routing, forwarding, and addressing
 	* Determines the best physical path for data based on network conditions, priority of service, etc
 	* IP addresses, packet forwarding
