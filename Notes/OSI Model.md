@@ -17,7 +17,7 @@
 	* Segments and reassembles data for transmission, more error detection
 	* TCP and UDP
 	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK)
-	* UDP is connectionless, faster, 
+	* UDP is connectionless, faster, good for stuff like video streaming
 5. Session
 	* 
 	* 
