@@ -23,7 +23,7 @@
 * Any of these can be used after specifying something to match
 * `A{3,5}` matches `A` if it repeats 3,4, or 5 times
 * `[1-2]+` matches 1 or 2 if it occurs once or more
-* `*` 
+* `+`
 
 #### Captures Groups
 * `(?<time>\d\d:\d\d:\d\d)`
