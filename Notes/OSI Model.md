@@ -6,8 +6,19 @@
 
 2. Data Link Layer
 	* 
+	* 
+	* 
 3. Network
+	* 
+	* 
+	* 
 4. Transport
+	* 
+	* 
+	* 
 5. Session
+	* 
+	* 
+	* 
 6. Presentation
 7. Application
