@@ -10,8 +10,9 @@
 	* Ethernet, PPP (Point-to-Point Protocol)
 3. Network
 	* Data routing, forwarding, and addressing
-	* Determines the best physical path
-	* 
+	* Determines the best physical path for data based on network conditions, priority of service, etc
+	* IP addresses, packet forwarding
+	* IP, ICMP (Internet Control Message Protocol), 
 4. Transport
 	* 
 	* 
