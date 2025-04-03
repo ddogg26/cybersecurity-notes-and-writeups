@@ -4,4 +4,11 @@
 * `\b` Start or end of word
 
 #### Escape Character
-* `\ i`
+* `\ is the escape character`
+
+#### Characters
+* `\d Digit`
+* `\D Non-Digit`
+* `\w Word Character`
+* df
+* `\s Whitespace Charac`
