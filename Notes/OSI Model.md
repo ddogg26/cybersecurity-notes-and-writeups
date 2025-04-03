@@ -5,9 +5,9 @@
 	* Fiber optics and Wi-Fi operate at this layer
 
 2. Data Link Layer
-	* 
-	* 
-	* 
+	* Error detection and correction
+	* Manages MAC addresses
+	* Ethernet, PPP (Point-to-Point Protocol)
 3. Network
 	* 
 	* 
@@ -21,4 +21,10 @@
 	* 
 	* 
 6. Presentation
+	* 
+	* 
+	* 
 7. Application
+	* 
+	* 
+	* 
