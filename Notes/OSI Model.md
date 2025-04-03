@@ -12,10 +12,10 @@
 	* Data routing, forwarding, and addressing
 	* Determines the best physical path for data based on network conditions, priority of service, etc
 	* IP addresses, packet forwarding
-	* IP, ICMP (Internet Control Message Protocol), 
+	* IP, ICMP (Internet Control Message Protocol), RIP (Routing Information Protocol)
 4. Transport
-	* 
-	* 
+	* Segments and reassembles data for transmission, more error detection
+	* TCP and UDP
 	* 
 5. Session
 	* 
