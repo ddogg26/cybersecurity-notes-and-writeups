@@ -17,4 +17,9 @@
 #### Character Classes
 * `. matches anything except line breaking`
 * `[a-e]` matches a through e
-* `^[4-6]` doesn't matc
+* `^[4-6]` doesn't match 4-6
+
+#### Repetition
+* Any of these can be used after specifying something to match
+* `A{3,5}` matches `A` if it repeats 3,4, or 5 times
+* `[1-2]+` matches 1 or 2 if it occurs once or more
