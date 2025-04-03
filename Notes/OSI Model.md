@@ -20,7 +20,7 @@
 	* UDP is connectionless, faster, good for stuff like video streaming
 5. Session
 	* Controls the connections between computers (establish, termination)
-	* 
+	* RPC (Remote Procedure Call) 
 	* 
 6. Presentation
 	* 
