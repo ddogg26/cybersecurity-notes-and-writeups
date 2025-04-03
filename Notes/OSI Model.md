@@ -17,6 +17,7 @@
 	* IP, ICMP (Internet Control Message Protocol), RIP (Routing Information Protocol)
 
 4. **Transport**
+	* Reliable end-to-end communication between hosts
 	* Segments and reassembles data for transmission, more error detection
 	* TCP and UDP
 	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK)
