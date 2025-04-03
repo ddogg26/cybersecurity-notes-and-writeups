@@ -1,10 +1,11 @@
 
 1. **Physical Layer**
-	* Hardware elements like cables, repeaters, hubs (repeaters and hubs because they transmit data, no data processing)
 	* Handles transmission of raw data
+	* Hardware elements like cables, repeaters, hubs (repeaters and hubs because they transmit data, no data processing)
 	* Fiber optics and Wi-Fi operate at this layer
 
 2. **Data Link Layer**
+	* Ensures reliable data transfer between nodes
 	* Node-to node data transfer, error detection and correction
 	* Manages MAC addresses
 	* Ethernet, PPP (Point-to-Point Protocol)
