@@ -20,8 +20,8 @@
 	* Reliable end-to-end communication between hosts
 	* Segments and reassembles data for transmission, more error detection
 	* TCP and UDP
-	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK)
-	* UDP is connectionless, faster, good for stuff like video streaming
+	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK), good for email, file transfer
+	* UDP doesn't establish connection first, faster, good for stuff like video streaming
 
 5. **Session**
 	* Controls the connections between computers (establish, termination)
