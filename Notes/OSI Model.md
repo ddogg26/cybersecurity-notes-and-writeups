@@ -16,7 +16,8 @@
 4. Transport
 	* Segments and reassembles data for transmission, more error detection
 	* TCP and UDP
-	* 
+	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK)
+	* UDP is connectionless, faster, 
 5. Session
 	* 
 	* 
