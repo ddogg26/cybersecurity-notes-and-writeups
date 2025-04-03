@@ -10,5 +10,8 @@
 * `\d Digit`
 * `\D Non-Digit`
 * `\w Word Character`
-* df
-* `\s Whitespace Charac`
+* `\W Non-Word Character`
+* `\s Whitespace Character`
+* `\S Non-Whitespace Character`
+
+#### Cha
