@@ -10,12 +10,12 @@
 * `\d` Digit
 * `\D` Non-Digit
 * `\w` Word Character
-* `\W Non-Word Character`
-* `\s Whitespace Character`
-* `\S Non-Whitespace Character`
+* `\W` Non-Word Character
+* `\s` Whitespace Character
+* `\S` Non-Whitespace Character
 
 #### Character Classes
-* `. matches anything except line breaking`
+* `.` matches anything except line breaking
 * `[a-e]` matches a through e
 * `^[4-6]` doesn't match 4-6
 
