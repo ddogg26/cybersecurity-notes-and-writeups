@@ -19,7 +19,7 @@
 	* TCP reliable with error checking and three way handshake (SYN, SYN/ACK, ACK)
 	* UDP is connectionless, faster, good for stuff like video streaming
 5. Session
-	* 
+	* Controls the connections bet
 	* 
 	* 
 6. Presentation
