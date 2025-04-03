@@ -34,6 +34,7 @@
 	* AES, RSA
 
 7. **Application**
+	* Allows applications to access network services
 	* Interface between end-user and network services
 	* Resource sharing, remote file access, network management
 	* HTTP, FTP, SMTP, DNS, etc
