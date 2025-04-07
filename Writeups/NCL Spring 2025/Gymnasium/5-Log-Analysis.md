@@ -5,4 +5,5 @@
 	* `cut`
 	* `sort`
 	* `uniq`
-* 
+* In some cases, log files's first line will be the headers for each column, but in this case, it is up to you to discern what each column means
+* For instance, The first 
