@@ -1,7 +1,7 @@
 bandit0 - bandit0
 bandit 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
-bandit 2 - 
-bandit 3 -
+bandit 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+bandit 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 bandit 4 -
 bandit 5 -
 bandit 6 -
