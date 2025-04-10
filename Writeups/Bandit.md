@@ -6,7 +6,7 @@ bandit 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 bandit 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 bandit 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 bandit 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
-bandit 8 - 
+bandit 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 bandit 9 - 
 bandit 10 - 
 bandit 11 - 
