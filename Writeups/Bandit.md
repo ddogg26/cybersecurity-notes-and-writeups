@@ -8,5 +8,5 @@ bandit 6 -
 bandit 7 - 
 bandit 8 - 
 bandit 9 - 
-bandit 10 -
-bandit 11 -
+bandit 10 - 
+bandit 11 - 
