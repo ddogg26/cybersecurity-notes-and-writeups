@@ -10,3 +10,10 @@ bandit 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 bandit 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 bandit 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 bandit 11 - 
+bandit 12 - 
+bandit 13 - 
+bandit 14- 
+bandit 15 - 
+bandit 16 - 
+bandit 17 - 
+
