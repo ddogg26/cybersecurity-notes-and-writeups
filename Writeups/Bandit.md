@@ -13,7 +13,7 @@
 #### bandit 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `base64 -d <file>`
 #### bandit 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
-* *
+* ROT13
 #### bandit 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 #### bandit 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 #### bandit 14- `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
