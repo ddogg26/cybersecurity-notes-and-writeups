@@ -15,6 +15,9 @@
 #### bandit 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * ROT13
 #### bandit 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+* Because it is a complete hex dump, there are tools that can be used to restore the original binary file
+* `xxd -r <hexdump>`
+* this gives you a
 #### bandit 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 #### bandit 14- `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
