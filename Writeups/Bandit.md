@@ -1,3 +1,5 @@
+### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
+
 #### bandit 0 - bandit0
 #### bandit 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 #### bandit 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
@@ -9,7 +11,7 @@
 #### bandit 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 #### bandit 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 #### bandit 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-* `base64 -d <file`
+* `base64 -d <file>`
 #### bandit 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 #### bandit 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 #### bandit 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
