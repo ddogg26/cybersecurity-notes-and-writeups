@@ -10,4 +10,4 @@ Installation
 Command and Control
 Actions on Objectives
 
-How do we stop these s
+How do we stop these steps in the chain?
