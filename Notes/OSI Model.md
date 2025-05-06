@@ -1,4 +1,4 @@
-Encapsulation is when pieces of info
+Encapsulation is when pieces of information get added to data
 
 1. **Physical Layer (Bits)**
 	* Handles transmission of raw data
