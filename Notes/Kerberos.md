@@ -1,0 +1,1 @@
+NetNTLM - Legacy auth. protocol for compatibil
