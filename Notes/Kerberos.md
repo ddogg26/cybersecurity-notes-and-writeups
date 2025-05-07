@@ -5,4 +5,4 @@ Assigns users tickets
 
 Flow:
 1. User sends their username and a timestamp encrypted using a key made from their password to the **Key Distribution Center** (KDC)
-2. KDC create and send back a **Ticket Granting Ticket** (TGT)
+2. KDC create and send back a **Ticket Granting Ticket** (TGT). Along with TGT, a **Session Key**
