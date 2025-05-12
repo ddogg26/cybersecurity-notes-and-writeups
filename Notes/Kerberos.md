@@ -13,8 +13,8 @@ Flow:
 4. KDC will send a TGS with a **Service Session Key**, which is needed to authenticate to the service. TGS is encrypted using a key derived from **Service Owner Hash**. The Service Owner is the user or machine account that the service runs under. TGS contains a copy of the Service Session Key, can be recovered by Service Owner through decryption.
 5. TGS sent to service to authenticate and establish a connection. Service uses configured 
 
-![](images/thm-tgt.png)
+![](images/thm-kerb-tgt.png)
 
-![](images/thm-tgs.png)
+![](images/thm-kerb-tgs.png)
 
-![](images/Pasted%20image%2020250512114908.png)
+![](images/thm-kerb-auth.png)
