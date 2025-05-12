@@ -9,4 +9,5 @@ Flow:
 	* TGT is encrypted using **krbtgt** account's password hash
 	* Encrypted TGT has a copy of the Session Key in its contents
 	* KDC has no need to store the Session Key because it can get it by decrypting the TGT
-3. When a user wants to connect to a service on the network, TGT is used to ask the KDC for a **Ticket Granting Service** (TGS). TGS are tickets that allows connection only to the service they were created for. To request a TGS, the user will send their username and timestamp encrypted using the Session Key,
+3. When a user wants to connect to a service on the network, TGT is used to ask the KDC for a **Ticket Granting Service** (TGS). TGS are tickets that allows connection only to the service they were created for. To request a TGS, the user will send their username and timestamp encrypted using the Session Key, and also the TGT and **Service Principal Name** (SPN). 
+4. KDC will send a TGS with a **Service Sess**
