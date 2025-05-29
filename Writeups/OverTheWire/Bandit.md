@@ -7,6 +7,7 @@
 	- **Example**: `cat --help` will you give a summarized version with what flags can be used with `cat`
 - Tab autocomplete is your friend! When working with long filenames or extensive directory paths, just press tab as you're typing it out and for the most part, Linux should be able to handle it and finish what you were typing
 	- **Example:** `cat really-sup` ***tab press*** --> `cat really-super-long-filename.txt`
+- The **Pipe** operator, `|` is used to string multiple commands tog
 
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
@@ -54,7 +55,7 @@
 - `cat data.txt` -> read the file and store it in standard output
 - `sort` -> sort the standard output so all the duplicate lines are next to each other
 - `uniq -c` -> count the occurrences of each line
-- `sort -nr` -> sort the 
+- `sort -nr` -> sort the lines numerically in reverse order (lines with least duplicates will be shown first)
 
 #### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `base64 -d <file>`
