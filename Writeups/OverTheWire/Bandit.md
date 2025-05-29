@@ -24,7 +24,7 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
  The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative or absolute file paths again. We see that only 1 file has ASCII text. (human readable text) If you try to cat the non ASCII files, you'll see it's just gibberish.
 #### bandit 5 -> 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - `find -size 1033c`
-The find command has many options to filter out different types of files. Although bandit gives us 3 filters to look for, in this case, just the size one will do. the letter after the filesize, 'c' in this case, determines what size to look for. 
+The find command has many options to filter out different types of files. Although bandit gives us 3 filters to look for, in this case, just the size one will do. the letter after the filesize, `1033c` in this case, determines what size to look for. 
 	- `c` for bytes
 	- `w` for 2 byte words
 	- `k` for 
