@@ -9,6 +9,7 @@ Not much going on here, just make sure you know ls (list) and cat (concatenate)
 #### bandit 1 -> 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - `cat ./-`
 - `cat /home/bandit1/-`
+Because the 
 #### bandit 2 -> 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - `cat "spaces in this filename"`
 - `cat spaces\ in\ this\ filename`
