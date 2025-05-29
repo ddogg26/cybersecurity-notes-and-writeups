@@ -36,7 +36,7 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
 * this gives you a
 #### bandit 12 -> 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
-#### bandit 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
-#### bandit 16 - 
-#### bandit 17 - 
+#### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+#### bandit 15 -> 16 - 
+#### bandit 16 -> 17 - 
 
