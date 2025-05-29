@@ -9,7 +9,7 @@
 	- **Example:** `cat really-sup` ***tab press*** --> `cat really-super-long-filename`
 
 #### bandit 0 - bandit0
-- `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
+- `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`<!-- -->
 I like to leave the login flag at the end of the command, which makes it easier to press 'up' on the keyboard and backspace once to change which bandit user I'm logging into. Just makes things quicker
 #### bandit 0 -> 1 | ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - `cat readme`
