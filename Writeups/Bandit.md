@@ -1,27 +1,27 @@
 ### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
 
-#### bandit 0 -> 1 - bandit0
+#### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
 I like to leave the login flag at the end of the command, which makes it easier to press 'up' on the keyboard and backspace once to change which bandit user I'm logging into. Just makes things quicker
-#### bandit 1 -> 2 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+#### bandit 0 -> 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - `cat readme`
 Not much going on here, just make sure you know ls (list) and cat (concatenate)
-#### bandit 2 -> 3 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+#### bandit 1 -> 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - `cat ./-`
 - `cat /home/bandit1/-`
-#### bandit 3 -> 4 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+#### bandit 2 -> 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - `cat "spaces in this filename"`
 - `cat spaces\ in\ this\ filename`
-#### bandit 4 -> 5 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+#### bandit 3 -> 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 - `ls -a`
 - `cat ...Hiding-From-You`
 Pretty much by default, I'm always using `ls -la` in every directory I'm looking in, because you never know when there might be hidden files. Built into some linux distros are quick aliases you can use to speed things up. For example, in kali, if you type `ll`, and it corresponds to `ls -la`
-#### bandit 5 -> 6 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+#### bandit 4 -> 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
  - `file ./*`
  - `file ./-file*`
-#### bandit 6 -> 7 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+#### bandit 5 -> 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - `find -size 1033c`
-#### bandit 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+#### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 #### bandit 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 #### bandit 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 #### bandit 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
