@@ -1,8 +1,9 @@
 ### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
 
 ### General Tips
-- the `man` command is very helpful when learning about other commands. Example: `man ls` will show you a ton of information about the ls command and how it's used
-- If the `man` command is too much information, try appending --help to the command you want to learn about. Example: `cat --help` will you give a summarized version with what flags can be used with `cat`.
+- the `man` command is very helpful when learning about other commands. **Example**: `man ls` will show you a ton of information about the `ls` command and how it's used
+- If the `man` command is too much information, try appending `--help` to the command you want to learn about. **Example**: `cat --help` will you give a summarized version with what flags can be used with `cat`
+- Tab autocomplete is your friend! When working with long filename
 
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
