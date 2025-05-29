@@ -1,5 +1,8 @@
 ### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
 
+### General Tips
+- the `man` command is very helpful when learning about other commands.
+
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
 I like to leave the login flag at the end of the command, which makes it easier to press 'up' on the keyboard and backspace once to change which bandit user I'm logging into. Just makes things quicker
@@ -27,7 +30,7 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
 The find command has many options to filter out different types of files. Although bandit gives us 3 filters to look for, in this case, just the size one will do. the letter after the filesize, `c` in this case, determines what unit of size to use. 
 	- `c` for bytes
 	- `w` for 2 byte words
-	- `k` for kibibytes (kibibyte=1024, kilobyte
+	- `k` for kibibytes (kibibyte=1024 bytes, kilobyte=1000 bytes)
 	- `M` for mebibytes
 	- etc.
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
