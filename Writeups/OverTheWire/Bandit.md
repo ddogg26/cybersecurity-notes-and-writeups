@@ -58,7 +58,7 @@
 - `uniq -c` -> count the occurrences of each line
 - `sort -nr` -> sort the lines numerically in reverse order (lines with least duplicates will be shown first)
 #### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
-* `base64 -d <file>`
+* `strings`
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * ROT13
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
