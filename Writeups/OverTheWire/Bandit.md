@@ -48,6 +48,7 @@
 - This is just an expansion on the previous challenge with more required tags and searching the entire computer instead of just 1 directory
 #### bandit 7 -> 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - `cat data.txt | grep millionth`
+- `grep` searches for patterns in text, line-by-line
 #### bandit 8 -> 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 #### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `base64 -d <file>`
