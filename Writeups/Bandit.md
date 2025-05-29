@@ -1,6 +1,7 @@
 ### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
 
 #### bandit 0 - bandit0
+- `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
 #### bandit 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 #### bandit 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 #### bandit 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
