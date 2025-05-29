@@ -2,6 +2,7 @@
 
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
+- I like to leave 
 #### bandit 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - `cat readme`
 #### bandit 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
@@ -9,7 +10,7 @@
 - `cat /home/bandit1/-`
 #### bandit 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - `cat "spaces in this filename"`
-- cat 
+- `cat spaces\ in\ this\ filename`
 #### bandit 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 #### bandit 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 #### bandit 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
