@@ -66,7 +66,7 @@
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * `base64 -d data.txt`
 * The challenge outright tells us that the file is encoded in base64, so after a little research on the `base64` command, we see that it can take a file or a string as input and you use the `-d` flag to decode.
-* To learn more about base 
+* To learn more about base64, look into base2 (binary), base10 (decimal), base16 (hexadecimal), etc. What really helped me is learning the character set for each base
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 * Because it is a complete hex dump, there are tools that can be used to restore the original binary file
 * `xxd -r <hexdump> > newfile`
