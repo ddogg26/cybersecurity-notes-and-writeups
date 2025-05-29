@@ -83,7 +83,7 @@
 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 - For this challenge, we'll move away from the terminal. We'll be using a browser-based tool called [CyberChef](https://gchq.github.io/CyberChef/). This tool is a necessity in this field, and I recommend you become very familiar with using it. It could've even been used to solve [bandit 10 -> 11](#bandit%2010%20->%2011)
 - CyberChef uses **recipes** to build functions to modify text and files. Based on the challenge description, it seems like the text in `data.txt` has been passed through some sort of.... ***cipher***? Before moving on, look into rotating 13 position cipher
-- Shift Cipher, Caesar Cipher, ROT13, etc. The
+- Shift Cipher, Caesar Cipher, ROT13, etc. These are just a few of the many ciphers that you will most likely learn about in your career. If you look in CyberChef, you will find a **recipe** called ROT13
 #### bandit 12 -> 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
