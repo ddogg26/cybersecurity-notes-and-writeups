@@ -68,7 +68,7 @@
 * The challenge outright tells us that the file is encoded in base64, so after a little research on the `base64` command, we see that it can take a file or a string as input and you use the `-d` flag to decode.
 * To learn more about base64, look into base2 (binary), base10 (decimal), base16 (hexadecimal), etc. What really helped me is learning the character set for each base
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
-* For this challenge, we'll move away from the terminal. We'll be using a browser-based tool called [CyberChef](https://gchq.github.io/CyberChef/
+* For this challenge, we'll move away from the terminal. We'll be using a browser-based tool called [CyberChef](https://gchq.github.io/CyberChef/). This tool is a necessity in this field, and I recommend you become very familiar with using it. It could've been used to solve [Bandit](Bandit.md)
 #### bandit 12 -> 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
