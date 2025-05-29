@@ -60,7 +60,7 @@
 #### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `strings data.txt | grep ==`
 * `strings data.txt` -> only pulls ASCII text from a file, ignoring any binary gibberish
-* `grep ==` -> looks for lines that start with at least 2
+* `grep ==` -> looks for lines that start with at least 2 eq
 * Now we're starting to get to the challenges where they can be completed in many different ways. Depending on your tool-set and knowledge, you may be able to find the answer in a much different way to how I found it.
 * In this instance, I used grep to list every line where 
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
