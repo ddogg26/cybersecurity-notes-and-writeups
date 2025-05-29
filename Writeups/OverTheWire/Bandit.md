@@ -27,7 +27,7 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
 The find command has many options to filter out different types of files. Although bandit gives us 3 filters to look for, in this case, just the size one will do. the letter after the filesize, 'c' in this case, determines what size to look for. 
 	- `c` for bytes
 	- `w` for 2 byte words
-	- `k` 
+	- `k` for 
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 - `find / -size 33c -user bandit7 -group bandit6 2>/dev/null`
 #### bandit 7 -> 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
