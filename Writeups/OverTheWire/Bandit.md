@@ -64,7 +64,8 @@
 * Now we're starting to get to the challenges where they can be completed in many different ways. Depending on your tool-set and knowledge, you may be able to find the answer in a much different way to how I found it
 * Initially, I tried using `cat`, but `grep` gave an error, because it can't handle the binary data. That lead me to remembering the `strings` command, which is better suited for this challenge
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
-* ROT13
+* `base64 -d data.txt`
+* The challenge outright tells us 
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 * Because it is a complete hex dump, there are tools that can be used to restore the original binary file
 * `xxd -r <hexdump> > newfile`
