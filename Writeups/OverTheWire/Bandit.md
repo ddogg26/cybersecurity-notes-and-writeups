@@ -61,7 +61,8 @@
 * `strings data.txt | grep ==*`
 * `strings data.txt` -> only pulls ASCII text from a file, ignoring any binary gibberish
 * `grep ==*` -> looks for patterns with at least 2 equals signs preceding the rest of the text
-* Now we're starting to get to the challenges where they can be completed in many different 
+* Now we're starting to get to the challenges where they can be completed in many different ways. Depending on your tool-set and knowledge, you may be able to find the answer in a much different way to how I found it.
+* In this instance, I used grep to list every in
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * ROT13
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
