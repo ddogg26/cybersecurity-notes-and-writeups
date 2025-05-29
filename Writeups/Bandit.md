@@ -23,18 +23,19 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
 - `find -size 1033c`
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 - `find / -size 33c -user bandit7 -group bandit6 2>/dev/null`
-#### bandit 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
-#### bandit 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
-#### bandit 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+#### bandit 7 -> 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+- 
+#### bandit 8 -> 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+#### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `base64 -d <file>`
-#### bandit 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+#### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * ROT13
-#### bandit 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+#### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 * Because it is a complete hex dump, there are tools that can be used to restore the original binary file
 * `xxd -r <hexdump> > newfile`
 * this gives you a
-#### bandit 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
-#### bandit 14- `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
+#### bandit 12 -> 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+#### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 16 - 
 #### bandit 17 - 
