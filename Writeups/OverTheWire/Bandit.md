@@ -29,7 +29,7 @@
 #### bandit 4 -> 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
  - `file ./*`
  - `file ./-file*`
- - The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative or absolute file paths again. The asterisk character is a wildcard. It means that it can substi We see that only 1 file has ASCII text. (human readable text) If you try to cat the non ASCII files, you'll see it's just gibberish.
+ - The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative or absolute file paths again. The asterisk character is a wildcard. It means that it can substitute as any other character. We see that only 1 file has ASCII text (human readable). If you try to cat the non ASCII files, you'll see it's just gibberish.
 #### bandit 5 -> 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - `find -size 1033c`
 - The find command has many options to filter out different types of files. Although bandit gives us 3 filters to look for, in this case, just the size one will do. the letter after the filesize, `c` in this case, determines what unit of size to use. 
