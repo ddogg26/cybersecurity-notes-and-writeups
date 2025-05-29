@@ -22,6 +22,7 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
 #### bandit 5 -> 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - `find -size 1033c`
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+- 
 #### bandit 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 #### bandit 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 #### bandit 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
