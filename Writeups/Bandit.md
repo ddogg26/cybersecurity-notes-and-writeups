@@ -13,6 +13,8 @@ Not much going on here, just make sure you know ls (list) and cat (concatenate)
 - `cat "spaces in this filename"`
 - `cat spaces\ in\ this\ filename`
 #### bandit 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+- `ls -a`
+- `cat ...Hiding-From-You`
 #### bandit 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 #### bandit 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 #### bandit 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
