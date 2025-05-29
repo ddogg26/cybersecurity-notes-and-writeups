@@ -56,27 +56,31 @@
 	- `-group bandit6` -> file is owned by bandit6 group
 	- `2>/dev/null` -> redirect errors (2) to (>) the void (/dev/null)
 - This is just an expansion on the previous challenge with more required tags and searching the entire computer instead of just 1 directory
-#### bandit 7 -> 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+#### bandit 7 -> 8
+- dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - `cat data.txt | grep millionth`
 - `grep` searches for patterns in text, line-by-line. The challenge states that the word **millionth** is **next to** the password, which most likely means they're on the same line, so `grep` should work in this instance
-#### bandit 8 -> 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+#### bandit 8 -> 9
+- 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 - `cat data.txt | sort | uniq -c | sort -nr`
 - `cat data.txt` -> read the file and store it in standard output
 - `sort` -> sort the standard output so all the duplicate lines are next to each other
 - `uniq -c` -> count the occurrences of each line
 - `sort -nr` -> sort the lines numerically in reverse order (lines with least duplicates will be shown first)
-#### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+#### bandit 9 -> 10
+- FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `strings data.txt | grep ==`
 * `strings data.txt` -> only pulls ASCII text from a file, ignoring any binary gibberish
 * `grep ==` -> looks for lines that start with at least 2 equals signs
 * Now we're starting to get to the challenges where they can be completed in many different ways. Depending on your tool-set and knowledge, you may be able to find the answer in a much different way to how I found it
 * Initially, I tried using `cat`, but `grep` gave an error, because it can't handle the binary data. That lead me to remembering the `strings` command, which is better suited for this challenge
-#### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+#### bandit 10 -> 11
+- dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * `base64 -d data.txt`
 * The challenge outright tells us that the file is encoded in base64, so after a little research on the `base64` command, we see that it can take a file or a string as input and you use the `-d` flag to decode.
 * To learn more about base64, look into base2 (binary), base10 (decimal), base16 (hexadecimal), etc. What really helped me is learning the character set for each base
-#### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
-* For this challenge, we'll move away from the terminal. We'll be using a browser-based tool called [CyberChef](https://gchq.github.io/CyberChef/). This tool is a necessity in this field, and I recommend you become very familiar with using it. It could've been used to solve [[#bandit 10]]
+#### bandit 11 -> 12
+- 7\x16WNeHIi5YkIhWsfFIqoognUTyj9Q4`* For this challenge, we'll move away from the terminal. We'll be using a browser-based tool called [CyberChef](https://gchq.github.io/CyberChef/). This tool is a necessity in this field, and I recommend you become very familiar with using it. It could've been used to solve [[#bandit 10]]
 #### bandit 12 -> 13 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
