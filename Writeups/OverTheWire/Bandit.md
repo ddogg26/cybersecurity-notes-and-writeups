@@ -3,10 +3,10 @@
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
 I like to leave the login flag at the end of the command, which makes it easier to press 'up' on the keyboard and backspace once to change which bandit user I'm logging into. Just makes things quicker
-#### bandit 0 -> 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+#### bandit 0 -> 1 | ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - `cat readme`
 Not much going on here, just make sure you know ls (list) and cat (concatenate)
-#### bandit 1 -> 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+#### bandit 1 -> 2 | 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - `cat ./-`
 - `cat /home/bandit1/-`
 Because the filename is a dash, Linux thinks that you are trying to give a flag for a command. You'll need to either provide the absolute or relative path so Linux knows that you are trying to access a file
