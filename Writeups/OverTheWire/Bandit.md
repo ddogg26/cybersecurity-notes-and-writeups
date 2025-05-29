@@ -21,7 +21,7 @@ Pretty much by default, I'm always using `ls -la` in every directory I'm looking
 #### bandit 4 -> 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
  - `file ./*`
  - `file ./-file*`
- The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative file paths again. If you try to cat the non ASCII files, you'll see it's just gibberish.
+ The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative or absolute file paths again. If you try to cat the non ASCII files, you'll see it's just gibberish.
 #### bandit 5 -> 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - `find -size 1033c`
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
