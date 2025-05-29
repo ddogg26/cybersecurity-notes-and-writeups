@@ -50,7 +50,8 @@
 - `cat data.txt | grep millionth`
 - `grep` searches for patterns in text, line-by-line. The challenge states that the word **millionth** is **next to** the password, which most likely means they're on the same line, so `grep` should work in this instance
 #### bandit 8 -> 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
-
+- `cat data.txt | sort | uniq -c |sort -nr`
+- 
 
 #### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `base64 -d <file>`
