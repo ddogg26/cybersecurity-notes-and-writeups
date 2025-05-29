@@ -13,7 +13,7 @@ Because the filename is a dash, Linux thinks that you are trying to give a flag 
 #### bandit 2 -> 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - `cat "spaces in this filename"`
 - `cat spaces\ in\ this\ filename`
-Linux doesn't like spaces in filenames because it interprets each word as a different file or argument for the initial command. You can either use quotes or the backslash (escape character) to let Linux know that the spaces are a part of the filename. The backslash basically says "Hey Linux! Whatever comes after me "
+Linux doesn't like spaces in filenames because it interprets each word as a different file or argument for the initial command. You can either use quotes or the backslash (escape character) to let Linux know that the spaces are a part of the filename. The backslash basically says "Hey Linux! Whatever comes after me is a string character, so don't take it into account!"
 #### bandit 3 -> 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 - `ls -a`
 - `cat ...Hiding-From-You`
