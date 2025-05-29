@@ -19,7 +19,7 @@
 #### bandit 1 -> 2 | 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - `cat ./-`
 - `cat /home/bandit1/-`
-- Because the filename is a dash, Linux thinks that you are trying to give a flag for a command. You'll need to either provide the absolute or relative path so Linux knows that you are trying to access a file
+- Because the filename is a dash, Linux thinks that you are trying to give a flag for a command. You'll need to either provide the absolute or relative path so Linux knows that you are trying to access a file directly
 #### bandit 2 -> 3 - MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 - `cat "spaces in this filename"`
 - `cat spaces\ in\ this\ filename`
