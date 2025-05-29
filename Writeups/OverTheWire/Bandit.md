@@ -55,7 +55,7 @@
 	- `-user bandit7` -> file is owned by bandit7 user
 	- `-group bandit6` -> file is owned by bandit6 group
 	- `2>/dev/null` -> redirect errors (2) to (>) the void (/dev/null)
-- This is just an expansion on the previous challenge with more required tags and searching the entire computer instead of just 1 directory
+- This is just an expansion on [bandit 5 -> 6](#bandit%205%20->%206) with more required tags and searching the entire computer instead of just 1 directory
 #### bandit 7 -> 8
 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - `cat data.txt | grep millionth`
