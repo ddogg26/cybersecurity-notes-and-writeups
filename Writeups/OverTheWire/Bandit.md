@@ -7,7 +7,7 @@
 	- **Example**: `cat --help` will you give a summarized version with what flags can be used with `cat`
 - Tab autocomplete is your friend! When working with long filenames or extensive directory paths, just press tab as you're typing it out and for the most part, Linux should be able to handle it and finish what you were typing
 	- **Example:** `cat really-sup` ***tab press*** --> `cat really-super-long-filename.txt`
-- The **Pipe** operator, `|` is used to string multiple commands tog
+- The **Pipe** operator `|` is used to string multiple commands together. The output of 1 command is then **piped** into the input of the next command
 
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
