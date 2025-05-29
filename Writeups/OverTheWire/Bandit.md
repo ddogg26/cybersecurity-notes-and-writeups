@@ -6,7 +6,7 @@
 - If the `man` command is too much information, try appending `--help` to the command you want to learn about
 	- **Example**: `cat --help` will you give a summarized version with what flags can be used with `cat`
 - Tab autocomplete is your friend! When working with long filenames or extensive directory paths, just press tab as you're typing it out and for the most part, Linux should be able to handle it and finish what you were typing
-	- **Example:** `cat really-sup` ***tab press*** --> `cat really-super-long-filename`
+	- **Example:** `cat really-sup` ***tab press*** --> `cat really-super-long-filename.txt`
 
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
@@ -29,7 +29,7 @@
 #### bandit 4 -> 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
  - `file ./*`
  - `file ./-file*`
- - The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative or absolute file paths again. The asterisk character is a wildcard, It means that it can substitute as any other character. We see that only 1 file has ASCII text (human readable). If you try to cat the non ASCII files, you'll see it's just gibberish.
+ - The file command will give you information about what the contents of a file are. Because of the dashes at the beginning of the filenames, you'll need to use the relative or absolute file paths again. The asterisk character is a wildcard, which means that it can substitute as any other character. We see that only 1 file has ASCII text (human readable). If you try to cat the non ASCII files, you'll see it's just gibberish.
 #### bandit 5 -> 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 - `find -size 1033c`
 - The find command has many options to filter out different types of files. Although bandit gives us 3 filters to look for, in this case, just the size one will do. The letter after the filesize, `c` in this case, determines what unit of size to use. 
