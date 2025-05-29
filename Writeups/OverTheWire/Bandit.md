@@ -8,7 +8,7 @@
 - Tab autocomplete is your friend! When working with long filenames or extensive directory paths, just press tab as you're typing it out and for the most part, Linux should be able to handle it and finish what you were typing
 	- **Example:** `cat really-sup` ***tab press*** --> `cat really-super-long-filename.txt`
 - The **Pipe** operator `|` is used to string multiple commands together. The output of 1 command is then **piped** into the input of the next command
-	- **Example:** `cat flag.txt | grep ctf` will send the output of the `cat` command (the contents of the file) to the input of the `grep` command
+	- **Example:** `cat flag.txt | grep ctf` will send the output of the `cat` command (the contents of the file) to the input of the `grep` command, which will then find all instances of the word **'ctf'** in the text
 
 #### bandit 0 - bandit0
 - `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
