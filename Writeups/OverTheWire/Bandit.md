@@ -40,7 +40,9 @@
 	- etc.
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 - `find / -size 33c -user bandit7 -group bandit6 2>/dev/null`
-- `-size 33c` -> file must be 
+- `-size 33c` -> file is 33 bytes in size
+- `-user bandit7` -> file is owned by bandit7 user
+- `-group bandit6`
 #### bandit 7 -> 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - `cat data.txt | grep millionth`
 #### bandit 8 -> 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
