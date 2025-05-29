@@ -40,12 +40,12 @@
 	- etc.
 #### bandit 6 -> 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 - `find / -size 33c -user bandit7 -group bandit6 2>/dev/null`
-	- `/` -> start the search from the 
+	- `/` -> start the search from the root directory
 	- `-size 33c` -> file is 33 bytes in size
 	- `-user bandit7` -> file is owned by bandit7 user
 	- `-group bandit6` -> file is owned by bandit6 group
 	- `2>/dev/null` -> redirect errors (2) to (>) the void (/dev/null)
-- 
+- This is just an expansion on the previous challenge with more tags 
 #### bandit 7 -> 8 - dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 - `cat data.txt | grep millionth`
 #### bandit 8 -> 9 - 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
