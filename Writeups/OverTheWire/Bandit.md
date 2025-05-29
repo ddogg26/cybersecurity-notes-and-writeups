@@ -59,7 +59,8 @@
 - `sort -nr` -> sort the lines numerically in reverse order (lines with least duplicates will be shown first)
 #### bandit 9 -> 10 - FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
 * `strings data.txt | grep ==*`
-* `strings` -> 
+* `strings data.txt` -> will only pull ASCII text from a file, ignoring any binary gibberish
+* `grep ==*` -> will look for text with at least 2 equals 
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * ROT13
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
