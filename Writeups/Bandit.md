@@ -5,6 +5,7 @@
 I like to leave the login flag at the end of the command, which makes it easier to press 'up' on the keyboard and backspace once to change which bandit user I'm logging into. Just makes things quicker
 #### bandit 1 - ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 - `cat readme`
+Not much going on here, just make sure you know ls (list) and cat (concatenate)
 #### bandit 2 - 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 - `cat ./-`
 - `cat /home/bandit1/-`
