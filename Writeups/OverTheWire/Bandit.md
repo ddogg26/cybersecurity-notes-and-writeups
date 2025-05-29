@@ -65,7 +65,8 @@
 * Initially, I tried using `cat`, but `grep` gave an error, because it can't handle the binary data. That lead me to remembering the `strings` command, which is better suited for this challenge
 #### bandit 10 -> 11 - dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
 * `base64 -d data.txt`
-* The challenge outright tells us that the file is encoded in base64, so after a little research on the `base64` command, we can see that you use 
+* The challenge outright tells us that the file is encoded in base64, so after a little research on the `base64` command, we see that it can take a file or a string as input and you use the `-d` flag to decode.
+* To learn more about base 
 #### bandit 11 -> 12 - 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
 * Because it is a complete hex dump, there are tools that can be used to restore the original binary file
 * `xxd -r <hexdump> > newfile`
