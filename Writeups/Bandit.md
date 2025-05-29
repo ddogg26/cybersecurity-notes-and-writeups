@@ -15,7 +15,7 @@ Not much going on here, just make sure you know ls (list) and cat (concatenate)
 #### bandit 4 - 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 - `ls -a`
 - `cat ...Hiding-From-You`
-Pretty much by default, I'm always using ls -la in every directory I'm looking in, because you never know when there might be hidden files. Built into some linux distros are quick aliases you can use to speed things up. For example, in kali, if you type `ll`, it corresponds to `ls -la`
+Pretty much by default, I'm always using `ls -la` in every directory I'm looking in, because you never know when there might be hidden files. Built into some linux distros are quick aliases you can use to speed things up. For example, in kali, if you type `ll`, and it corresponds to `ls -la`
 #### bandit 5 - 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 #### bandit 6 - HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 #### bandit 7 - morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
