@@ -1,5 +1,3 @@
-### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
-
 ### General Tips
 - the `man` command is very helpful when learning about other commands
 	- **Example**: `man ls` will show you a ton of information about the `ls` command and how it's used
