@@ -101,10 +101,9 @@
 
 | Tool  | File Extension | Extraction/Decompression Command |
 | ----- | -------------- | -------------------------------- |
-| gzip  |                |                                  |
-| tar   |                |                                  |
-| bzip2 |                |                                  |
-|       |                |                                  |
+| gzip  | .gz            | `gzip -d newfile`                |
+| tar   | .tar           | tar -xf                          |
+| bzip2 | .bz2           |                                  |
 
 	- gzip | .gz
 	- tar | .tar
