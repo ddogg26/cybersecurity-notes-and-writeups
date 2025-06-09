@@ -86,8 +86,8 @@
 - Shift Cipher, Caesar Cipher, ROT13, etc. These are just a few of the many ciphers that you will most likely learn about in your career. If you look in CyberChef, you will find a **recipe** called ROT13. It rotates all the letters in the text by 13 positions (half the alphabet). Paste the original `data.txt` text in the top right text box, drag the ROT13 recipe on over, and watch the magic happen in the output text box!
 #### bandit 12 -> 13
 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
-- This challenge is all about compression and hexdumps
-- To start, they tell you that data.txt is a **hexdump** of a repeatedly compressed file. After doing a little research, I found that the `xxd` command is able to reverse hexdumps into binary data. With this binary data, you can begin reversing the compression
+- This challenge is all about **compression** and **hexdumps**
+- To start, they tell you that `data.txt` is a **hexdump** of a repeatedly compressed file. After doing a little research, I found that the `xxd` command is able to reverse hexdumps into binary data. With this binary data, you can begin reversing the compression
 - Before we start, make a temporary directory in `/tmp` where we can do our work. The reason is, OverTheWire does not allow file creation or editing in the bandit directories
 	- `mkdir /tmp/<directory-name>`
 	- `cp /home/bandit12/data.txt /tmp/<directory-name>`
