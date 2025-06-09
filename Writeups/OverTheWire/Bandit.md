@@ -109,7 +109,7 @@
 
 #### bandit 13 -> 14
 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
-- 
+- We're told that in order to login to the bandit14 account, we must use the private SSH key they've provided to us. After looking through the `man` page for SSH, I found this
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
 #### bandit 16 -> 17 - 
