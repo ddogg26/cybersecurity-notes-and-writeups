@@ -143,7 +143,9 @@ ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14
 	- -i | Selects a file from which the identity (private key) for RSA or DSA authentication is read. The default is ~/.ssh/identity for protocol version 1, and ~/.ssh/id_rsa and ~/.ssh/id_dsa for protocol version 2. Identity files may also be specified on a per-host basis in the configuration file. It is possible to have multiple -i options (and multiple identities specified in configuration files)
 - Remember that this SSH command must be run from within the bandit13 home folder because that is where the sshkey is. Using this new option, we are able to login to bandit14 and solve the next challenge
 #### bandit 14 -> 15 -
+```
 MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
 - Coming from [bandit 13 -> 14](#bandit%2013%20->%2014), we are told that the password for this level is stored in `/etc/bandit_pass/bandit14`. Sure enough, if we cat that file, we are given the password
 - Now the challenge is submitting this password we just found to **port 30000** on **localhost**. This is done pretty simply. We use Netcat, a networking utility for establishing TCP and UDP connections, to submit this data
 - nc localhost 30000
@@ -159,7 +161,9 @@ MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 - `openssl s_client -connect localhost:30001`
 - After running this, a lot of certificate information is shown, and then we are thrown into a text entry box. I pasted this rooms password and was given the password for the next challenge
 #### bandit 16 -> 17
-- kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+```
+kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+```
 - After reading the description for this challenge, the first tool that came to mind was `nmap`. nmap is used to scan ports of a network and learn more about what they do. It can find running services, live hosts, vulnerabilities, and much more.
 - `nmap localhost -sV -p 31000-32000`
 	- This simple command will do a **Service/Version** scan on the local machine on ports 31000 to 32000
