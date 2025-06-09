@@ -114,5 +114,6 @@
 - Remember that this SSH command must be run from within the bandit13 home folder because that is where the sshkey is. Using this new option, we are able to login to bandit14 and solve the next challenge
 #### bandit 14 -> 15 -
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+- Coming from [bandit 13 -> 14](#bandit%2013%20->%2014), we are told that the password for this level is stored in `/etc/bandit_pass/bandit14`. Sure enough, if we
 #### bandit 15 -> 16 - 
 #### bandit 16 -> 17 - 
