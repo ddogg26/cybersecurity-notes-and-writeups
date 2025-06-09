@@ -122,5 +122,5 @@
 	- By pasting the current challenge's password, we are given the password for the next challenge
 #### bandit 15 -> 16
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
-- 
+- We wil
 #### bandit 16 -> 17
