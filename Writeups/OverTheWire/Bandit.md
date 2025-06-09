@@ -122,5 +122,6 @@
 	- By pasting the current challenge's password, we are given the password for the next challenge
 #### bandit 15 -> 16
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
-- We wil
+- We will be using OpenSSL to make a connection to the requested port in order to retrieve the password. OpenSSL uses the TLS/SSL protocols to establish secure communications over networks
+- 
 #### bandit 16 -> 17
