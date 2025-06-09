@@ -1,4 +1,4 @@
-### `ssh bandit.labs.overthewire.org -p 2220 -l bandit#`
+### ssh bandit.labs.overthewire.org -p 2220 -l bandit#
 
 ### General Tips
 - the `man` command is very helpful when learning about other commands
