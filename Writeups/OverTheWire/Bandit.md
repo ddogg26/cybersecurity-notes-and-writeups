@@ -132,9 +132,10 @@
 - `nmap localhost -sV -p 31000-32000`
 	- This simple command will do a **Service/Version** scan on the local machine on ports 31000 to 32000
 
-| PORT      | STATE | SERVICE | VERSION |
-| --------- | ----- | ------- | ------- |
-| 31046/tcp |       |         |         |
-| 31518/tcp |       |         |         |
-| 31691/tcp |       |         |         |
-|           |       |         |         |
+| PORT      | STATE | SERVICE    |
+| --------- | ----- | ---------- |
+| 31046/tcp | open  | echo       |
+| 31518/tcp | open  | ssl/echo   |
+| 31691/tcp | open  | echo       |
+| 31790/tcp | open  | ssl/unkown |
+| 31960/tcp | open  | echo       |
