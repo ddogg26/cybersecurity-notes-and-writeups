@@ -91,8 +91,8 @@
 - Before we start, make a temporary directory in `/tmp` where we can do our work. The reason is, OverTheWire does not allow file creation or editing in the bandit directories
 	- `mkdir /tmp/<directory-name>`
 	- `cp /home/bandit12/data.txt /tmp/<directory-name>`
-	- cd 
-- 
+	- `cd /tmp/<directory-name>`
+- In order to reverse a hexdump, you need 
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
