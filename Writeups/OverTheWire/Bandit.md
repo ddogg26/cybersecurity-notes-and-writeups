@@ -98,6 +98,12 @@
 	- `file <rebuilt-filename>`
 - In my case, it says it's gzip compressed data. Sometimes, these compression tools don't like when files don't have the correct file extensions, so I always rename them before trying to decompress
 	- gzip | .gz
+	- tar | .tar
+	- bzip2 | .bz2
+	- 7zip | .7z
+	- zip | .zip
+	- Winrar | .rar
+- 
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
