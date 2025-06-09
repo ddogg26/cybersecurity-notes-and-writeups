@@ -101,18 +101,10 @@
 
 | Tool  | File Extension | Extraction/Decompression Command |
 | ----- | -------------- | -------------------------------- |
-| gzip  | .gz            | `gzip -d newfile`                |
-| tar   | .tar           | tar -xf                          |
-| bzip2 | .bz2           |                                  |
+| gzip  | .gz            | `gunzip newfile`                 |
+| tar   | .tar           | `tar -xf newfile`                |
+| bzip2 | .bz2           | `bunzip2 newfile`                |
 
-	- gzip | .gz
-	- tar | .tar
-	- bzip2 | .bz2
-	- 7zip | .7z
-	- zip | .zip
-	- Winrar | .rar
-- Each tool has a different way of decompressing/extracting the files inside, but you will learn them over time
-	- gzip | 
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
