@@ -96,7 +96,7 @@
 	- `cat data.txt | xxd -r > newfile`
 - Now that we have rebuilt binary data, use the `file` command to learn more about it
 	- `file newfile`
-- I can see that it says it's gzip compressed data. Sometimes, these compression tools don't like when files don't have the correct file extensions, so I always rename them before trying to decompress
+- I can see that it says it's gzip compressed data. Sometimes, these compression tools don't like when files don't have the incorrect file extensions, so I always rename them before trying to decompress
 	- `mv newfile newfile.gz`
 
 | Tool  | File Extension | Extraction/Decompression Command |
