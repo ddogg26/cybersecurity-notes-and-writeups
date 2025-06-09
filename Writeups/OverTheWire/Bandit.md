@@ -141,6 +141,7 @@
 | 31960/tcp | open  | echo       |
 - From the challenge description, we know we're looking for a service that "speaks" SSL/TLS **AND** does not send back (echo) whatever we send to it. From the 5 services that the nmap scan returned, we see that port 31518 speaks ssl, but also echos back to us. That only leaves port 31790 for investigation.
 - `openssl s_client -quiet -connect localhost:31790`
+	- We use the `-quiet` flag
 #### bandit 17 -> 18
 -----BEGIN RSA PRIVATE KEY-----
 MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
@@ -169,3 +170,4 @@ YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
 dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
 vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
 -----END RSA PRIVATE KEY-----
+
