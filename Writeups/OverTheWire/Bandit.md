@@ -86,7 +86,8 @@
 - Shift Cipher, Caesar Cipher, ROT13, etc. These are just a few of the many ciphers that you will most likely learn about in your career. If you look in CyberChef, you will find a **recipe** called ROT13. It rotates all the letters in the text by 13 positions (half the alphabet). Paste the original `data.txt` text in the top right text box, drag the ROT13 recipe on over, and watch the magic happen in the output text box!
 #### bandit 12 -> 13
 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
-- 
+- This challenge is all about compression and hexdumps
+- To start, they tell you that data.txt is a **hexdump** of a repeatedly compressed file
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
