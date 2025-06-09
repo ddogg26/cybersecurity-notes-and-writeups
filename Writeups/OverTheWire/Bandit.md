@@ -123,5 +123,5 @@
 #### bandit 15 -> 16
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 - We will be using OpenSSL to make a connection to the requested port in order to retrieve the password. OpenSSL uses the TLS/SSL protocols to establish secure communications over networks
-- 
+- I simply looked up "openssl make connection" in google to learn more about the possibility of doing this, and one of the first responses was about the `openssl s_client -connect <host`
 #### bandit 16 -> 17
