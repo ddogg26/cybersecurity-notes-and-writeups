@@ -129,5 +129,5 @@
 #### bandit 16 -> 17
 - kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 - After reading the description for this challenge, the first tool that came to mind was `nmap`. nmap is used to scan ports of a network and learn more about what they do. It can find running services, live hosts, vulnerabilities, and much more.
-- `nmap localhost -p 31000-32000`
-	- This simple command will scan the local machine on ports 
+- `nmap localhost -sV -p 31000-32000`
+	- This simple command will do a **the** local machine on ports 31000 to 32000 
