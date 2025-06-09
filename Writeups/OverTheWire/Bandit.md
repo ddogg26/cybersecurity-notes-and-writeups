@@ -178,7 +178,7 @@ kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 - From the challenge description, we know we're looking for a service that "speaks" SSL/TLS **AND** does not send back (echo) whatever we send to it. From the 5 services that the nmap scan returned, we see that port 31518 speaks ssl, but also echos back to us. That only leaves port 31790 for investigation.
 - `openssl s_client -quiet -connect localhost:31790`
 	- We use the `-quiet` flag to make sure the connection is not in "interactive mode". Interactive mode makes it so that certain letters, like `k` for `KEYUPDATE`, do specific actions with the connection. These actions can cause problems when trying to send the password to the port, so we disable them
-- After successfully submitting the password, we're given an **RSA PRIVATE KEY**, which should sound familiar if you've completed [bandit 13 -> 14](#bandit%2013%20->%2014). What I did was create a `sshkey.private` on my host machine and paste the full **RSA PRIVATE KEY** into it. Then I used the `ssh -i`
+- After successfully submitting the password, we're given an **RSA PRIVATE KEY**, which should sound familiar if you've completed [bandit 13 -> 14](#bandit%2013%20->%2014). What I did was create a`17to18-sshkey.private` file on my host machine and paste the full **RSA PRIVATE KEY** into it. Then I used 
 #### bandit 17 -> 18
 ```
 -----BEGIN RSA PRIVATE KEY-----
