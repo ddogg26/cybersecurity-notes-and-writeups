@@ -139,4 +139,4 @@
 | 31691/tcp | open  | echo       |
 | 31790/tcp | open  | ssl/unkown |
 | 31960/tcp | open  | echo       |
-- From the challenge description, we know we're looking for a service that "speaks" SSL/TLS **AND** does not send back (echo) whatever we send to it
+- From the challenge description, we know we're looking for a service that "speaks" SSL/TLS **AND** does not send back (echo) whatever we send to it. From the 5 services that the nmap scan returned, we see that port 31518 speaks ssl, but also echos back to us. That only leaves port 31790 for investigation.
