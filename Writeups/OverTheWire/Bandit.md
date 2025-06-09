@@ -88,7 +88,7 @@
 - FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 - This challenge is all about compression and hexdumps
 - To start, they tell you that data.txt is a **hexdump** of a repeatedly compressed file. After doing a little research, I found that the `xxd` command is able to reverse hexdumps into binary data. With this binary data, you can begin reversing the compression
-- Before we start, use
+- Before we start, make a temporary directory in `/tmp` where we can do our work. The reason is, OverTheWire does not allow file creation or editing in the bandit directories. `mkdir /tmp/<`
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
