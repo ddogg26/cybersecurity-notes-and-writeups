@@ -139,3 +139,4 @@
 | 31691/tcp | open  | echo       |
 | 31790/tcp | open  | ssl/unkown |
 | 31960/tcp | open  | echo       |
+- From the challenge description, we know we're looking for a service that "speaks" SSL/TLS **AND** does not send back (echo) whatever we send to it
