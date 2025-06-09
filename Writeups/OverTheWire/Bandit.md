@@ -131,4 +131,10 @@
 - After reading the description for this challenge, the first tool that came to mind was `nmap`. nmap is used to scan ports of a network and learn more about what they do. It can find running services, live hosts, vulnerabilities, and much more.
 - `nmap localhost -sV -p 31000-32000`
 	- This simple command will do a **Service/Version** scan on the local machine on ports 31000 to 32000
-- 
+
+| PORT      | STATE | SERVICE | VERSION |
+| --------- | ----- | ------- | ------- |
+| 31046/tcp |       |         |         |
+| 31518/tcp |       |         |         |
+| 31691/tcp |       |         |         |
+|           |       |         |         |
