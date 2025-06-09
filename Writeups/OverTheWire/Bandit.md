@@ -119,7 +119,7 @@
 - `nc localhost 30000`
 	- Now that we have made a connection to this port, we are able to type in data to send
 	- Typing in random input gets us the output of "Wrong! Please enter the correct current password."
-	- By pasting the current challenge's password
+	- By pasting the current challenge's password, we are given the password for the next challenge
 #### bandit 15 -> 16
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
-#### bandit 16 -> 17 - 
+#### bandit 16 -> 17
