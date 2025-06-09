@@ -128,4 +128,6 @@
 - After running this, a lot of certificate information is shown, and then we are thrown into a text entry box. I pasted this rooms password and was given the password for the next challenge
 #### bandit 16 -> 17
 - kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
-- After reading the description for this challenge, the first tool that came to mind was `nmap`. nmap is 
+- After reading the description for this challenge, the first tool that came to mind was `nmap`. nmap is used to scan ports of a network and learn more about what they do. It can find running services, live hosts, vulnerabilities, and much more.
+- `nmap localhost -p 31000-32000`
+	- This simple command will scan the local
