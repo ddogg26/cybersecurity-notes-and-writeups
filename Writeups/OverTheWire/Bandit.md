@@ -14,7 +14,9 @@
 ```
 bandit0
 ```
-- `ssh bandit.labs.overthewire.org -p 2220 -l bandit0`
+```
+ssh bandit.labs.overthewire.org -p 2220 -l bandit0
+```
 - I like to leave the login flag at the end of the command, which makes it easier to press 'up' on the keyboard and backspace once to change which bandit user I'm logging into. Just makes things quicker
 #### bandit 0 -> 1
 ```
@@ -136,12 +138,16 @@ FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
 	- **Footnote:** **tar** works slightly differently than **gzip** and **bzip2** in the way that it does not remove the original file after extraction unlike the other 2 tools. Be aware of this and make sure you are working on the correct file at any given time
 
 #### bandit 13 -> 14
-- `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
+```
+ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14
+```
 - We're told that in order to login to the bandit14 account, we must use the private SSH key they've provided to us. After looking through the `man` page for SSH, I found this option:
 	- -i | Selects a file from which the identity (private key) for RSA or DSA authentication is read. The default is ~/.ssh/identity for protocol version 1, and ~/.ssh/id_rsa and ~/.ssh/id_dsa for protocol version 2. Identity files may also be specified on a per-host basis in the configuration file. It is possible to have multiple -i options (and multiple identities specified in configuration files)
 - Remember that this SSH command must be run from within the bandit13 home folder because that is where the sshkey is. Using this new option, we are able to login to bandit14 and solve the next challenge
 #### bandit 14 -> 15 -
-- MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
+MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
+```
 - Coming from [bandit 13 -> 14](#bandit%2013%20->%2014), we are told that the password for this level is stored in `/etc/bandit_pass/bandit14`. Sure enough, if we cat that file, we are given the password
 - Now the challenge is submitting this password we just found to **port 30000** on **localhost**. This is done pretty simply. We use Netcat, a networking utility for establishing TCP and UDP connections, to submit this data
 - `nc localhost 30000`
