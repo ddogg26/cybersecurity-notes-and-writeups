@@ -99,9 +99,12 @@
 - I can see that it says it's gzip compressed data. Sometimes, these compression tools don't like when files don't have the correct file extensions, so I always rename them before trying to decompress
 	- `mv newfile newfile.gz`
 
-| Tool | File Extension |
-| ---- | -------------- |
-|      |                |
+| Tool  | File Extension | Extraction/Decompression Command |
+| ----- | -------------- | -------------------------------- |
+| gzip  |                |                                  |
+| tar   |                |                                  |
+| bzip2 |                |                                  |
+|       |                |                                  |
 
 	- gzip | .gz
 	- tar | .tar
