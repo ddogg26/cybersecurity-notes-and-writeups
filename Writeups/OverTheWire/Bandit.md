@@ -104,8 +104,8 @@
 | gzip  | .gz            | `gunzip newfile.gz`              |
 | tar   | .tar           | `tar -xvf newfile.tar`           |
 | bzip2 | .bz2           | `bunzip2 newfile.bz2`            |
-- Each time after extracting, run the `file` command again to learn what compression type the new file is, use the `mv` command to add the correct extension, and use the proper tool to extract the data. After repeating this multiple times, you should eventually get a file that shows as ASCII text. This contains your password
-	- **Footnote:** **tar** works slightly differently than **gzip** and **bzip2** in the way that it does not remove the original **.tar** file unlike the other 2 tools. Be aware of this and make sure you are working on the correct file at any given time
+- Each time after extracting, run the `file` command again to learn what compression type the new file is, use the `mv` command to add the correct extension, and use the proper command to extract the data. After repeating this multiple times, you should eventually get a file that shows as ASCII text. This contains your password
+	- **Footnote:** **tar** works slightly differently than **gzip** and **bzip2** in the way that it does not remove the original file after extraction unlike the other 2 tools. Be aware of this and make sure you are working on the correct file at any given time
 
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
