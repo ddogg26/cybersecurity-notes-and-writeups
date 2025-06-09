@@ -111,8 +111,8 @@
 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 - We're told that in order to login to the bandit14 account, we must use the private SSH key they've provided to us. After looking through the `man` page for SSH, I found this option:
 	- -i | Selects a file from which the identity (private key) for RSA or DSA authentication is read. The default is ~/.ssh/identity for protocol version 1, and ~/.ssh/id_rsa and ~/.ssh/id_dsa for protocol version 2. Identity files may also be specified on a per-host basis in the configuration file. It is possible to have multiple -i options (and multiple identities specified in configuration files)
-- Using this new option, we are able to login to bandit14 and solve the next challenge
+- Remember that this SSH command must be run from within the bandit13 home folder because that is where the sshkey is. Using this new option, we are able to login to bandit14 and solve the next challenge
 #### bandit 14 -> 15 -
-8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+- 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
 #### bandit 16 -> 17 - 
