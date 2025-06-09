@@ -121,7 +121,9 @@
 	- Typing in random input gets us the output of "Wrong! Please enter the correct current password."
 	- By pasting the current challenge's password, we are given the password for the next challenge
 #### bandit 15 -> 16
-- 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
+8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+```
 - We will be using OpenSSL to make a connection to the requested port in order to retrieve the password. OpenSSL uses the TLS/SSL protocols to establish secure communications over networks
 - I simply looked up "openssl make connection" in google to learn more about the possibility of doing this, and one of the first responses was about the `openssl s_client -connect <hostname>:<port>` command, which seems like exactly what we need
 - `openssl s_client -connect localhost:30001`
