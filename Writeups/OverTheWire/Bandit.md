@@ -94,7 +94,8 @@
 	- `cd /tmp/<directory-name>`
 - In order to reverse a hexdump, you need to redirect the hexdump output to the `xxd -r` command
 	- `cat data.txt | xxd -r > <rebuilt-filename>`
-- Now that we have rebuilt
+- Now that we have rebuilt binary data, use the `file` command to learn more about it
+	- `file `
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
