@@ -179,7 +179,7 @@ kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
 - `openssl s_client -quiet -connect localhost:31790`
 	- We use the `-quiet` flag to make sure the connection is not in "interactive mode". Interactive mode makes it so that certain letters, like `k` for `KEYUPDATE`, do specific actions with the connection. These actions can cause problems when trying to send the password to the port, so we disable them
 - After successfully submitting the password, we're given an **RSA PRIVATE KEY**, which should sound familiar if you've completed [bandit 13 -> 14](#bandit%2013%20->%2014). What I did was create a`17to18-sshkey.private` file on my host machine and pasted the full **RSA PRIVATE KEY** into it. Then I used `ssh bandit.labs.overthewire.org -p 2220 -i 17to18-sshkey.private -l bandit17` to login to bandit17
-	- If you get any errors about file permissions, this is because ssh won't use private key files 
+	- If you get any errors about file permissions, this is because ssh won't use private key files that can be modified by other users. To fix this, run `chmod 600 <ssh-filename>` This will make it so that only your current user can read and write to the file, while any other ot
 #### bandit 17 -> 18
 ```
 -----BEGIN RSA PRIVATE KEY-----
