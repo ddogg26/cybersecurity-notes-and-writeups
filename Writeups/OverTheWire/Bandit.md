@@ -98,13 +98,19 @@
 	- `file newfile`
 - I can see that it says it's gzip compressed data. Sometimes, these compression tools don't like when files don't have the correct file extensions, so I always rename them before trying to decompress
 	- `mv newfile newfile.gz`
+
+| Tool | File Extension |
+| ---- | -------------- |
+|      |                |
+
 	- gzip | .gz
 	- tar | .tar
 	- bzip2 | .bz2
 	- 7zip | .7z
 	- zip | .zip
 	- Winrar | .rar
-- Each tool has a different way of decompressing/extracting the file 
+- Each tool has a different way of decompressing/extracting the files inside, but you will learn them over time
+	- gzip | 
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 15 -> 16 - 
