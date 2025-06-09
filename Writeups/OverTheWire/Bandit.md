@@ -115,7 +115,8 @@
 #### bandit 14 -> 15 -
 - MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS
 - Coming from [bandit 13 -> 14](#bandit%2013%20->%2014), we are told that the password for this level is stored in `/etc/bandit_pass/bandit14`. Sure enough, if we cat that file, we are given the password
-- Now the challenge is submitting this password we just found to **port 30000** on **localhost**
+- Now the challenge is submitting this password we just found to **port 30000** on **localhost**. This is done pretty simply. We use Netcat, a networking utility for establishing TCP and UDP connections, to submit this data
+- `nc localhost`
 #### bandit 15 -> 16
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 16 -> 17 - 
