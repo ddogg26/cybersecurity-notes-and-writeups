@@ -125,5 +125,6 @@
 - We will be using OpenSSL to make a connection to the requested port in order to retrieve the password. OpenSSL uses the TLS/SSL protocols to establish secure communications over networks
 - I simply looked up "openssl make connection" in google to learn more about the possibility of doing this, and one of the first responses was about the `openssl s_client -connect <hostname>:<port>` command, which seems like exactly what we need
 - `openssl s_client -connect localhost:30001`
-- After running this, a lot of certificate information is shown, and then we are thrown into a text entry 
+- After running this, a lot of certificate information is shown, and then we are thrown into a text entry box. I pasted this rooms password and was given the password for the next challenge
 #### bandit 16 -> 17
+- kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
