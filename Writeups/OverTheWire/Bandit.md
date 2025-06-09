@@ -104,6 +104,7 @@
 | gzip  | .gz            | `gunzip newfile`                 |
 | tar   | .tar           | `tar -xf newfile`                |
 | bzip2 | .bz2           | `bunzip2 newfile`                |
+- Each time after extracting, run the `file` command again to learn what compression type the new file is, use the `mv` command to add the correct extension, and use the proper tool to 
 
 #### bandit 13 -> 14 - `ssh bandit.labs.overthewire.org -p 2220 -i sshkey.private -l bandit14`
 #### bandit 14 -> 15 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
