@@ -118,6 +118,8 @@
 - Now the challenge is submitting this password we just found to **port 30000** on **localhost**. This is done pretty simply. We use Netcat, a networking utility for establishing TCP and UDP connections, to submit this data
 - `nc localhost 30000`
 	- Now that we have made a connection to this port, we are able to type in data to send
+	- Typing in random input gets us the output of "Wrong! Please enter the correct current password."
+	- By pasting the current challenge's password
 #### bandit 15 -> 16
 - 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
 #### bandit 16 -> 17 - 
